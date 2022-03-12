@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>CD 플레이어 css</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./css/sample.css" />
+<head>
+  <title>CD 플레이어 css</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="./css/sample.css" />
 </head>
+
 <body>
   <article class="contentWrap">
 
@@ -21,8 +24,19 @@
         <img src="./image/iu_0.jpg" alt="">
       </a>
     </section>
-
+    <!-- 
+      sass적용 법
+      npx sass --watch css/style.scss css/style.css
+    명령어를 설명해드리자면,
     
+    - npx : Node Package eXecute의 약자. 즉, 노드 패키지를 실행하라는 뜻입니다.
+    
+    - --watch : 소스에 변형이 일어날 때마다 자동으로 컴파일을 시켜주는 명령어입니다.
+    
+    - css/style.scss css/style.css : 'css폴더 안의 style.scss가 css폴더 안의 style.css파일로'라는 뜻입니다.
+    
+     -->
+
   </article>
 
   <div class="buttonWrap">
@@ -35,4 +49,5 @@
     <button type="button">NEXT</button>
   </div>
 </body>
+
 </html>
